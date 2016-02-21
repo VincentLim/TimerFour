@@ -1,4 +1,4 @@
-#include <TimerThree.h>
+#include <TimerFour/TimerFour.h>
 
 // This example uses the timer interrupt to blink an LED
 // and also demonstrates how to share a variable between
@@ -10,8 +10,8 @@ const int led = LED_BUILTIN;  // the pin with a LED
 void setup(void)
 {
   pinMode(led, OUTPUT);
-  Timer3.initialize(150000);
-  Timer3.attachInterrupt(blinkLED); // blinkLED to run every 0.15 seconds
+  Timer4.initialize(150000);
+  Timer4.attachInterrupt(blinkLED); // blinkLED to run every 0.15 seconds
   Serial.begin(9600);
 }
 
