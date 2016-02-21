@@ -1,4 +1,12 @@
-#TimerThree Library#
+#TimerFour Library#
+
+Simple names changes to use Timer4 on Mega boards.
+
+Fork from https://github.com/PaulStoffregen/TimerThree.
+
+This work by Vincent Limorté remains under "Creative Commons Attribution 3.0" license : http://creativecommons.org/licenses/by/3.0/
+
+------------------------------------------------------------------------------
 
 Paul Stoffregen's modified TimerThree.  This version provides 2 main benefits:
 
