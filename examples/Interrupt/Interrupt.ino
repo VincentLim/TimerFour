@@ -1,4 +1,4 @@
-#include <TimerFour/TimerFour.h>
+#include <TimerFour.h>
 
 // This example uses the timer interrupt to blink an LED
 // and also demonstrates how to share a variable between
